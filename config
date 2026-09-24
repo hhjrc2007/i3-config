@@ -4,7 +4,7 @@ font pango:monospace 8
 
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id setxkbmap fi
-exec --no-startup-id nitrogen
+exec --no-startup-id nitrogen --restore
 exec --no-startup-id pipewire
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
